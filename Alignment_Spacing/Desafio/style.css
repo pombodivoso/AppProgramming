@@ -1,0 +1,32 @@
+
+*{
+    margin: 0px 0px 150px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quadrado-azul{
+    background-color: rgb(63, 106, 245);
+    width: 200px;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+}
+.l1{
+    display: flex;
+    justify-content: space-between;
+    height: 22%;
+}
+.linhas-quadrados{
+    height: 22%;
+}
+.quadrado-laranja{
+    width: 67px;
+    height: 67px;
+    background-color: orange;
+    margin: 0px 0px 5px 0px;
+}
+.colunas-quadrados{
+    width: 22%;
+    flex-direction: column;
+}
