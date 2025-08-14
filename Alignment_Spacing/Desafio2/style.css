@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(184, 182, 182);
+    margin:0;
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    /* display: flex;
+    position: fixed; */
+}
+.image{
+    height: 200px;
+    width: 120px;
+    margin: 10px 0px 0px 30px;
+    background-color: transparent;
+}
+.title{
+    margin: 28px 0px 0px 37%;
+    background-color: transparent;
+    /* position: fixed; */
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.divisao{
+    width: 50%;
+}
+.content{
+    /* margin: 250px; */
+    /* width: 30%; */
+}
+.container{
+    height: 90vh;
+}
+.l1{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+.sonic{
+    margin: 40px 400px 40px 400px;
+    height: 300px;
+}
+
+.sonics{
+    margin: 0px 0px 0px 0px;
+}
