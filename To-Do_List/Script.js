@@ -12,6 +12,7 @@ function addChore(){
 
     let newButton = document.createElement("button")
     newButton.classList.add("buttonX")
+    newButton.onclick = removeChore;
     newButton.textContent = "X"
     newChore.appendChild(newButton)
 
@@ -19,5 +20,8 @@ function addChore(){
     
 }
 
-function removeChore(){
+function removeChore(event){
+    const button = event.target;          
+    const choreDiv = button.parentNode;   
+    choreDiv.remove();              
 }
