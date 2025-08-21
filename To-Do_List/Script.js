@@ -2,6 +2,8 @@ let inputUser = document.getElementById("userInput")
 let list = document.getElementById("listChores")
 
 function addChore(){
+
+
     let newChore = document.createElement("div")
     newChore.classList.add("choresSquare")
 
